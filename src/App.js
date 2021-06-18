@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from "react";
 //import ProfileCard from "./components/ProfileCard";
 //import Blog from "./components/Blog";
-import User from "./components/User";
+// import User from "./components/User";
+// import Modal from "./components/Modal";
+// import Navbar from "./components/Navbar";
+// import Table from "./components/Table";
+// import Card from "./components/Card";
 import axios from "axios";
+// import Menu from "./components/Menu";
+// import Section from "./components/Section";
+// import Banner from "./components/Banner";
+import Hero from "./components/Hero";
 
 const App = () => {
   const myUser = {
@@ -70,7 +78,11 @@ const App = () => {
       .then((res) => setUser(res.data.results[0]));
   }, []);
 
-  return <User user={user} />;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default App;

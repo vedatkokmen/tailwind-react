@@ -289,7 +289,6 @@ const Blog = () => {
                   </p>
                 </div>
               </div>
-
               <div className="flex w-full md:w-1/2">
                 <div className="px-8">
                   <h3 className="font-bold text-gray-900">Social</h3>
