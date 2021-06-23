@@ -1,8 +1,9 @@
 import React from "react";
 import faker from "faker";
+import Layout from "./Layout";
 const Hero = () => {
   return (
-    <>
+    <Layout>
       <div className="header p-4 w-1/4 border">
         <div className="flex flex-row justify-between items-center">
           <div className="">
@@ -59,7 +60,7 @@ const Hero = () => {
         </div>
         <img className="w-full mt-4" src={faker.image.business()} alt="Hey" />
       </div>
-    </>
+    </Layout>
   );
 };
 
