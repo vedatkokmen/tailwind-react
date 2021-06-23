@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Layout from "./Layout";
 import axios from "axios";
 
 const myQuote = {
@@ -38,12 +37,10 @@ const AnimeQuote = () => {
   }, []);
 
   return (
-    <Layout>
-      <div className="container w-1/3">
-        <img src={image} alt="Char" />
-        <div>{quote.quote}</div>
-      </div>
-    </Layout>
+    <div className="container w-1/3">
+      <img src={image} alt="Char" />
+      <div>{quote.quote}</div>
+    </div>
   );
 };
 

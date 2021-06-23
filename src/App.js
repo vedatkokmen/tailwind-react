@@ -8,14 +8,13 @@ import Modal from "./components/Modal";
 
 const App = () => {
   return (
-    // <BrowserRouter>
-    //   <Switch>
-    //     <RouteWrapper path="/one" component={ProfileCard} layout={Layout} />
-    //     <RouteWrapper path="/two" component={Table} layout={Layout} />
-    //     <RouteWrapper path="/three" component={CardTwo} layout={Layout} />
-    //   </Switch>
-    // </BrowserRouter>
-    <Layout></Layout>
+    <BrowserRouter>
+      <Switch>
+        <RouteWrapper path="/one" component={ProfileCard} layout={Layout} />
+        <RouteWrapper path="/two" component={Table} layout={Layout} />
+        <RouteWrapper path="/three" component={CardTwo} layout={Layout} />
+      </Switch>
+    </BrowserRouter>
   );
 };
 
