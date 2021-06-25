@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../assets/selfie.jpg";
 
 const ProfileCard = () => {
   return (
@@ -96,7 +97,7 @@ const ProfileCard = () => {
 
         <div className="w-full lg:w-2/5">
           <img
-            src="https://source.unsplash.com/MP0IUfwrn0A"
+            src={image}
             className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
             alt="Profile Pic"
           />

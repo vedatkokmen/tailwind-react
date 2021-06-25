@@ -5,26 +5,6 @@ const Portfolio = () => {
   return (
     <>
       <div className="container m-auto p-6 rounded-md w-screen h-screen">
-        <nav className="flex gap-12 justify-center">
-          <a
-            className=" hover:bg-indigo-500 px-2 rounded-md  hover:text-white"
-            href="/#"
-          >
-            Home
-          </a>
-          <a
-            className=" hover:bg-indigo-500 px-2 rounded-md hover:text-white"
-            href="/#"
-          >
-            About
-          </a>
-          <a
-            className=" hover:bg-indigo-500 px-2 rounded-md hover:text-white"
-            href="/#"
-          >
-            Blog
-          </a>
-        </nav>
         <div className="flex flex-col space-y-8 items-center align-middle h-full  justify-center">
           <img
             src={faker.image.avatar()}
